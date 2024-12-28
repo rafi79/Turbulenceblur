@@ -9,7 +9,7 @@ import io
 class GentleTextExtractor:
     def __init__(self, api_key='AIzaSyCcMZPrzP5me7Rl4pmAc1Nn5vUDSan5Q6E'):
         genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel('gemini-pro-vision')
+        self.model = genai.GenerativeModel('gemini-1.5-flash')
     
     def gentle_enhance(self, image):
         """Gentle enhancement for better text readability"""
