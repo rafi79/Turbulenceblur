@@ -9,7 +9,7 @@ class TextExtractor:
     def __init__(self, api_key='AIzaSyCcMZPrzP5me7Rl4pmAc1Nn5vUDSan5Q6E'):
         genai.configure(api_key=api_key)
         # Using pro-vision model for better text recognition
-        self.model = genai.GenerativeModel('gemini-pro-vision')
+        self.model = genai.GenerativeModel('gemini-1.5-flash')
     
     def extract_text(self, image):
         """Extract text from turbulent image using Gemini"""
