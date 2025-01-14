@@ -87,7 +87,7 @@ def main():
     # Sidebar for API key
     api_key = st.sidebar.text_input(
         "Gemini API Key",
-        value="AIzaSyCcMZPrzP5me7Rl4pmAc1Nn5vUDSan5Q6E",
+        value="AIzaSyB-VpIY25J2Mo13Q8h26Au5W218SHO6dPs",
         type="password"
     )
     
