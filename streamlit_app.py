@@ -7,7 +7,7 @@ import PIL.Image
 import io
 
 class GentleTextExtractor:
-    def __init__(self, api_key='AIzaSyCcMZPrzP5me7Rl4pmAc1Nn5vUDSan5Q6E'):
+    def __init__(self, api_key='AIzaSyB-VpIY25J2Mo13Q8h26Au5W218SHO6dPs'):
         genai.configure(api_key=api_key)
         self.model = genai.GenerativeModel('gemini-1.5-flash')
     
